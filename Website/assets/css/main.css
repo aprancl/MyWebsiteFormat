@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/cs ?family=Yanone+Kaffeesatz:400,300,200");
+
+
+/*Web Defaults*/
+* {
+    font-family: sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Wrapper for webpage*/
+
+#wrapper{
+    position: absolute;
+    background-color: brown;
+    height: 200%;
+    width: 100%;
+    
+}
+
+
+/*Banner Section*/
+#banner {
+    position: relative;
+    background-color: steelblue;
+    height: 100px;
+    border-width: 100%;
+    padding: 20px;
+    margin: 0px;
+    border: 10px;
+    border-color: green;
+    border-style: dashed;
+}
