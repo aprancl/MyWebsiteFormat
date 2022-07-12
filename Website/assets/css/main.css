@@ -11,6 +11,7 @@ html, body{
 }
 
 
+
 /*Wrapper for webpage*/
 
 #wrapper{
@@ -19,6 +20,13 @@ html, body{
     height: 200%;
     width: 100%;
     
+}
+
+/*THIS IS FOR MOBILE!!!*/
+@media screen and (max-width: 900px){
+    #wrapper {
+        background-color: aqua;
+    }
 }
 
 
@@ -40,13 +48,23 @@ html, body{
         width: 10em;
         background-color: aliceblue;
         font-size: 190%;
-        color: red
+        text-decoration: none;
+        color: green;
     }
+        #bannder .titlecontainer {
+            text-decoration: none;
+            color: red
+        }
     #banner .navcontainer{
-        margin-left: 50em;
-        margin-top: -4em;
+        /* margin-left: 45em;
+        margin-top: -5em; */
+        margin-left: 40%;
+        margin-top: -5%;
 
     }
         #banner .navcontainer a{
-            margin-left: 1em;
+            margin-left: 5%;
+            color: white;
+            text-decoration: none;
+            font-size: x-large;
         }
