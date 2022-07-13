@@ -79,7 +79,7 @@ html, body{
 #banner {
     position: relative;
     background-color: peru;
-    height: 200px;
+    height: 165px;
     border-width: 100%;
     padding: 20px;
     margin: 0px;
@@ -104,8 +104,9 @@ html, body{
     #banner .navcontainer{
         /* margin-left: 45em;
         margin-top: -5em; */
-        position:relative;
+        position: relative;
         margin: auto;
+        text-align: center;
     }
         #banner .navcontainer a{
             /* margin-left: 5%; */
