@@ -22,12 +22,6 @@ html, body{
     
 }
 
-/*THIS IS FOR MOBILE!!!*/
-@media screen and (max-width: 900px){
-    #wrapper {
-        background-color: aqua;
-    }
-}
 
 
 /*Banner Section*/
@@ -68,3 +62,55 @@ html, body{
             text-decoration: none;
             font-size: x-large;
         }
+
+
+
+/*THIS IS FOR MOBILE!!!*/
+/*My mobile Configueration*/
+@media screen and (max-width: 950px){
+    #wrapper {
+    position: absolute;
+    background-color: aqua;
+    height: 200%;
+    width: 100%;
+    }
+
+/*Banner Section*/
+#banner {
+    position: relative;
+    background-color: peru;
+    height: 200px;
+    border-width: 100%;
+    padding: 20px;
+    margin: 0px;
+    border: 10px;
+    border-color: green;
+    border-style: double;
+}
+    #banner .titlecontainer {
+        margin: auto;
+        margin-top: -1.5em;
+        text-align: center;
+        width: 10em;
+        background-color: aliceblue;
+        font-size: 190%;
+        text-decoration: none;
+        color: green;
+    }
+        #bannder .titlecontainer {
+            text-decoration: none;
+            color: red
+        }
+    #banner .navcontainer{
+        /* margin-left: 45em;
+        margin-top: -5em; */
+        position:relative;
+        margin: auto;
+    }
+        #banner .navcontainer a{
+            /* margin-left: 5%; */
+            color: white;
+            text-decoration: none;
+            font-size: x-large;
+        }
+}
