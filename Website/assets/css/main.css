@@ -64,6 +64,40 @@ html, body{
         }
 
 
+/*Content Section 1*/
+#contentSect1 {
+
+    position: relative;
+    background-color: grey;
+    height: 500px;
+    border-width: 100%;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    /* border-color: green; */
+    /* border-style: dashed; */
+}
+    #contentSect1 .imgContainer {
+    position: relative;
+    margin: 0;
+    height: 300px;
+    width: 50%;
+    background-color: white;
+    box-shadow:  3px 3px 3px 1px rgb(0, 0, 0);
+    }
+        #contentSect1 .imgContainer  img{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            height: 90%;
+            width: 90%;
+            /* border: 10px rgb(213, 240, 80) ;
+            border-style: double; */
+
+        }
 
 /*THIS IS FOR MOBILE!!!*/
 /*My mobile Configueration*/
