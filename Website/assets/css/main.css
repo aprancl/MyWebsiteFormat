@@ -81,8 +81,8 @@ html, body{
     #contentSect1 .imgContainer {
     position: absolute;
     margin: 0;
-    margin-top: 7%;
     height: 300px;
+    top: 19%;
     width: 41%;
     background-color: white;
     box-shadow:  3px 3px 3px 1px rgb(0, 0, 0);
@@ -101,25 +101,27 @@ html, body{
 
         }
     /*Text Box*/
-    #txtContainer {
+    #contentSect1 .txtContainer {
         position: absolute;
         padding: 10px; 
         margin: 0;
-        margin-left: 45%;
-        margin-top: 2%;
-        height: 80%;
+        left: 45%;
+        top: 6%;
+        height:auto;
         width: 50%;
         background-color: white;
         box-shadow:  3px 3px 3px 1px rgb(0, 0, 0);
 
     }
-        #txtContainer h1 {
+       #contentSect1 .txtContainer h1 {
+            position: relative;
             margin-top: 3%;
             margin-bottom: 6%;
             font-size: 200%;
             text-align: center;
         }
-        #txtContainer h2 {
+        #contentSect1 .txtContainer h2 {
+            position: relative;
             margin-top: 0%;
             text-align: center;
             font-size: 140%;;
@@ -181,7 +183,7 @@ html, body{
 
         position: relative;
         background-color: grey;
-        height: 500px;
+        height: auto;
         border-width: 100%;
         padding: 20px;
         margin: 0px;
@@ -192,10 +194,7 @@ html, body{
         #contentSect1 .imgContainer {
         position: relative;
         margin: 0 auto;
-        margin-top: 90px;
-        margin-left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        top: 1%;
         height: 180px;
         width: 360px;
         background-color: white;
@@ -217,12 +216,11 @@ html, body{
     /*MOBILE Text Box*/
     #txtContainer {
         position: relative;
-        bottom: 15%;
-        padding: 10px; 
         margin: 0 auto;
-        margin-top: 2%;
-        height: 50%;
+        height: auto;
         width: 80%;
+        top: 4%;
+        padding: 10px; 
         background-color: white;
         box-shadow:  3px 3px 3px 1px rgb(0, 0, 0);
 
